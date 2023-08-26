@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="card_header">
+            <h1> Student Result App </h1>
+        </div>
+        <div class="card_body">
+            <div class="input_card">
+                <div class="input">
+                    <label for="stName"> Student Name : </label> <br>
+                    <input  class="stName" type="text" placeholder="Enter the student name"> <br> <br>
+                </div>
+                <div class="input">
+                    <label for="stRoll"> Student Roll : </label> <br>
+                    <input  class="stRoll" type="text" placeholder="Enter the student roll"> <br> <br>
+                </div>
+                <div class="input">
+                    <label for="stDept"> Student Dept : </label> <br>
+                    <input  class="stDept" type="text" placeholder="Enter the student dept"> <br> <br>
+                </div>
+                <div class="input">
+                    <label for="stGpa"> Student GPA : </label> <br>
+                    <input  class="stGpa" type="text" placeholder="Enter the student cgpa"> <br> <br>
+                </div>
+                
+                <button id="btn" type="submit"> Click </button>
+                
+
+            </div>
+            <div class="output_card">
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Name </th>
+                            <th> ID </th>
+                            <th> Dept </th>
+                            <th> CGPA </th>
+                        </tr>
+                    </thead>
+                    <tbody  class="tbody">
+                        <!-- <tr>
+                            <td> Sumon </td>
+                            <td> 1234 </td>
+                            <td> Math </td>
+                            <td> 3.66 </td>
+                        </tr>
+                        <tr>
+                            <td> Satyajit </td>
+                            <td> 1237 </td>
+                            <td> Histry </td>
+                            <td> 3.87 </td>
+                        </tr> -->
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
